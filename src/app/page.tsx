@@ -6,10 +6,6 @@ import Button from "@/components/Button/Button";
 import ContactLinks from "@/components/ContactLinks/ContactLinks";
 import About from "./about/page";
 
-import { mySkills } from "@/constants/mySkills";
-import Card from "@/components/Card/Card";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import Projects from "@/screens/projects/Projects";
 import Skills from "@/screens/Skills/Skills";
 

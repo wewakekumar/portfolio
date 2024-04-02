@@ -9,10 +9,10 @@ const Skills = () => {
     <div className="flex flex-col justify-center items-center gap-y-8 my-8">
       <h2 className="text-3xl">My Skills</h2>
       <div className="flex flex-col gap-4">
-        {mySkills.map((skills) => (
-          <div className="flex justify-center gap-4">
+        {mySkills.map((skills, index) => (
+          <div key={index} className="flex justify-center gap-4">
             {skills.map((skill) => (
-              <Card>
+              <Card key={skill.title}>
                 <div className="flex flex-col items-center justify-center gap-y-4 p-y-4 h-full">
                   <div className="w-8 h-8">
                     {skill.faIcon ? (

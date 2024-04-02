@@ -35,10 +35,10 @@ const ContactLinks: React.FC<ContactLinksProps> = (props) => {
     <div className="flex flex-col items-center gap-y-4">
       <div className="w-0.5 h-10 bg-primary"></div>
       <ul className="flex flex-col gap-y-4">
-        {links.map((link) => {
+        {links.map((link, index) => {
           const { type, url, icon } = link;
           return (
-            <li>
+            <li key={index}>
               <Link href={url} target="_blank">
                 <div className="h-4 w-4">
                   <FontAwesomeIcon size="lg" icon={icons[type]} />
