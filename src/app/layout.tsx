@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head></head>
+      <body className={(inter.className, "dark px-24 py-8")}>{children}</body>
     </html>
   );
 }
