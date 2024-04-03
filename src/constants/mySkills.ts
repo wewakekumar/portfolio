@@ -23,6 +23,8 @@ import typescript from "@/assets/image/typescript.png";
 
 import jest from "@/assets/image/jest.png";
 
+import nextJs from "@/assets/image/nextJs.png";
+
 const mySkills = [
   [
     {
@@ -31,22 +33,22 @@ const mySkills = [
     },
     { title: "CSS", iconUrl: css3 },
     { title: "Javascript", iconUrl: javascript },
-    { title: "React", faIcon: faReact, style: { color: "#00D8FE" } },
-  ],
-  [
-    { title: "Node", faIcon: faNodeJs, style: { color: "#52A040" } },
-    { title: "Redux", iconUrl: redux },
-    { title: "Sass", faIcon: faSass, style: { color: "#CF6C9C" } },
-    { title: "Webpack", iconUrl: webpack },
-  ],
-  [
-    { title: "Git", faIcon: faGitAlt, style: { color: "#F05134" } },
-    { title: "AWS", iconUrl: aws },
     { title: "Typescript", iconUrl: typescript },
   ],
   [
+    { title: "Node", faIcon: faNodeJs, style: { color: "#52A040" } },
+    { title: "React", faIcon: faReact, style: { color: "#00D8FE" } },
+    { title: "Redux", iconUrl: redux },
+    { title: "NextJS", iconUrl: nextJs },
+  ],
+  [
+    { title: "Git", faIcon: faGitAlt, style: { color: "#F05134" } },
+    { title: "Sass", faIcon: faSass, style: { color: "#CF6C9C" } },
+    { title: "AWS", iconUrl: aws },
+  ],
+  [
     { title: "Jest", iconUrl: jest },
-    { title: "React Testing Library", faIcon: faGitAlt, style: {} },
+    { title: "Webpack", iconUrl: webpack },
   ],
 ];
 
