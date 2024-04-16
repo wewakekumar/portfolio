@@ -11,6 +11,11 @@ const Projects = () => {
           title="Sahpathi"
           description="A web app where you can complete tasks and sprints in groups with friends."
           imageURL={site}
+          siteScores={[
+            { title: "Performance", point: 90 },
+            { title: "Accessibility", point: 80 },
+            { title: "Best Practices", point: 95 },
+          ]}
         />
       </div>
     </div>

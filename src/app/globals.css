@@ -7,3 +7,14 @@
   color: #d4d4dd;
 }
 
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, #324232 79%, transparent 80% 100%),
+    conic-gradient(#00CC66 75%, #324232 0); 
+}
